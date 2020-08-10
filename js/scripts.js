@@ -10,8 +10,8 @@ function teaToPint(number1) {
 function celToFah(number1) {
 	return number1 * 9 / 5 + 32 
 }
-function fahToCel(number2) {
-	return (number2 - 32) * 5 / 9
+function fahToCel(number1) {
+	return (number1 - 32) * 5 / 9
 }
 
 const number1 = parseInt(prompt("Enter quantity:"));
